@@ -6,7 +6,8 @@ import "./Reviews.css";
 import { useState, useRef } from "react";
 import axios from "axios";
 import Loader from "../../Components/Loader/Loader";
-import { Rating } from "@material-ui/lab";
+// import { Rating } from "@material-ui/lab";
+import { Rating } from '@mui/material';
 import { useSelector } from "react-redux";
 const AddReviews = () => {
   const RegisterSuccess = useRef();

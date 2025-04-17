@@ -6,7 +6,8 @@ import Loader from "../../Components/Loader/Loader";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
 import { RiEmotionHappyLine } from "react-icons/ri";
-import { Rating } from "@material-ui/lab";
+// import { Rating } from "@material-ui/lab";
+import { Rating } from '@mui/material';
 import NotFoundCart from "../../Components/NotFoundCart/NotFoundCart";
 
 const AllReviews = () => {
